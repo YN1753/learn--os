@@ -1,0 +1,8 @@
+{
+  "title": "HTTP协议",
+  "description": "HTTP/HTTPS协议原理、请求响应模型和常见状态码",
+  "category": "网络基础",
+  "tags": ["HTTP", "HTTPS", "Web协议", "状态码"],
+  "difficulty": "初级",
+  "order": 56
+}

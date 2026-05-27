@@ -1,0 +1,20 @@
+[
+  {
+    "question": "POSIX的全称是什么？",
+    "options": ["Portable Operating System Interface", "Process Operating System Index", "Program Operating System Integration", "Public Operating System Interface"],
+    "answer": 0,
+    "explanation": "POSIX是Portable Operating System Interface的缩写，表示可移植操作系统接口。"
+  },
+  {
+    "question": "以下哪个系统是POSIX兼容的？",
+    "options": ["Windows 10", "macOS", "MS-DOS", "Android"],
+    "answer": 1,
+    "explanation": "macOS是经过POSIX认证的操作系统，Linux和FreeBSD也高度兼容POSIX。"
+  },
+  {
+    "question": "POSIX标准主要定义了什么？",
+    "options": ["硬件接口", "操作系统接口", "网络协议", "数据库接口"],
+    "answer": 1,
+    "explanation": "POSIX标准定义了操作系统应该提供的应用程序接口（API），包括系统调用、Shell工具等。"
+  }
+]

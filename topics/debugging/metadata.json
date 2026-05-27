@@ -1,0 +1,8 @@
+{
+  "title": "系统调试",
+  "description": "操作系统调试工具和技术，包括GDB、strace和core dump分析",
+  "category": "系统管理",
+  "tags": ["调试", "GDB", "strace", "core dump"],
+  "difficulty": "高级",
+  "order": 57
+}

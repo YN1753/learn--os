@@ -1,0 +1,8 @@
+{
+  "title": "POSIX标准",
+  "description": "POSIX标准的定义、内容和对操作系统兼容性的重要意义",
+  "category": "操作系统基础",
+  "tags": ["POSIX", "标准", "兼容性", "Unix"],
+  "difficulty": "中级",
+  "order": 59
+}

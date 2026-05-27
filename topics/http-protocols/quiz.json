@@ -1,0 +1,20 @@
+[
+  {
+    "question": "HTTP状态码404表示什么？",
+    "options": ["服务器错误", "重定向", "未找到资源", "请求成功"],
+    "answer": 2,
+    "explanation": "404 Not Found表示服务器无法找到请求的资源。"
+  },
+  {
+    "question": "HTTPS默认使用哪个端口？",
+    "options": ["80", "443", "8080", "3000"],
+    "answer": 1,
+    "explanation": "HTTPS默认使用443端口，HTTP使用80端口。"
+  },
+  {
+    "question": "HTTP POST方法通常用于什么操作？",
+    "options": ["获取资源", "提交数据", "删除资源", "更新资源"],
+    "answer": 1,
+    "explanation": "POST方法通常用于向服务器提交数据，如表单提交、创建新资源等。"
+  }
+]

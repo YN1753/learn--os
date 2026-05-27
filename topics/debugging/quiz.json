@@ -1,0 +1,20 @@
+[
+  {
+    "question": "GDB中设置断点的命令是什么？",
+    "options": ["run", "break", "next", "print"],
+    "answer": 1,
+    "explanation": "break命令用于设置断点，例如 break main 在main函数设置断点。"
+  },
+  {
+    "question": "strace命令的作用是什么？",
+    "options": ["调试程序", "追踪系统调用", "分析内存", "查看网络连接"],
+    "answer": 1,
+    "explanation": "strace用于追踪程序的系统调用，帮助理解程序与内核的交互。"
+  },
+  {
+    "question": "如何启用Linux系统的core dump？",
+    "options": ["ulimit -c unlimited", "chmod +x core", "enable core", "sysctl core=1"],
+    "answer": 0,
+    "explanation": "ulimit -c unlimited 命令启用core dump，允许程序崩溃时生成内存转储文件。"
+  }
+]

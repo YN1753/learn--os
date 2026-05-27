@@ -1,0 +1,20 @@
+[
+  {
+    "question": "TCP建立连接需要几次握手？",
+    "options": ["一次", "两次", "三次", "四次"],
+    "answer": 2,
+    "explanation": "TCP使用三次握手建立连接：SYN → SYN+ACK → ACK。"
+  },
+  {
+    "question": "以下哪个应用最适合使用UDP协议？",
+    "options": ["文件传输", "网页浏览", "视频直播", "电子邮件"],
+    "answer": 2,
+    "explanation": "视频直播对实时性要求高，可以容忍少量丢包，适合使用UDP。"
+  },
+  {
+    "question": "TCP头部最小长度是多少字节？",
+    "options": ["8字节", "16字节", "20字节", "32字节"],
+    "answer": 2,
+    "explanation": "TCP头部最小20字节，包含源端口、目的端口、序列号、确认号等必要字段。"
+  }
+]
