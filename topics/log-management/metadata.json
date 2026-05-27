@@ -1,0 +1,8 @@
+{
+  "title": "日志管理",
+  "description": "理解系统日志的作用、日志级别和日志管理工具",
+  "category": "系统管理",
+  "tags": ["日志", "syslog", "journalctl", "调试"],
+  "difficulty": "基础",
+  "order": 43
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "question": "DAC和MAC的主要区别是什么？",
+    "options": [
+      "DAC更快",
+      "DAC由资源所有者控制访问，MAC由系统强制执行",
+      "MAC更灵活",
+      "两者没有区别"
+    ],
+    "answer": 1,
+    "explanation": "DAC（自主访问控制）让资源所有者决定访问权限，MAC（强制访问控制）由系统强制执行安全策略，用户无法override。"
+  },
+  {
+    "question": "SELinux属于哪种访问控制模型？",
+    "options": [
+      "DAC",
+      "MAC",
+      "RBAC",
+      "ABAC"
+    ],
+    "answer": 1,
+    "explanation": "SELinux（Security-Enhanced Linux）实现了强制访问控制（MAC），通过安全策略限制进程的权限。"
+  },
+  {
+    "question": "沙箱技术的主要作用是什么？",
+    "options": [
+      "提高性能",
+      "隔离进程的执行环境，限制其访问",
+      "管理内存",
+      "处理网络请求"
+    ],
+    "answer": 1,
+    "explanation": "沙箱通过隔离技术限制进程的访问范围，即使进程被攻破，也无法影响系统其他部分。"
+  }
+]

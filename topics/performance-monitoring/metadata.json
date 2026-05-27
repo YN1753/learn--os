@@ -1,0 +1,8 @@
+{
+  "title": "性能监控",
+  "description": "理解系统性能监控工具、性能指标和调优方法",
+  "category": "系统管理",
+  "tags": ["性能", "监控", "top", "vmstat"],
+  "difficulty": "进阶",
+  "order": 41
+}

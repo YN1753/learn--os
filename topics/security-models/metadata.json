@@ -1,0 +1,8 @@
+{
+  "title": "安全模型",
+  "description": "理解操作系统安全模型、访问控制和安全机制",
+  "category": "安全",
+  "tags": ["安全", "访问控制", "SELinux", "沙箱"],
+  "difficulty": "进阶",
+  "order": 42
+}

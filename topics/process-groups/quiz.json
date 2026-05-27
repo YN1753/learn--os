@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Ctrl+C 发送什么信号给前台进程组？",
+    "options": [
+      "SIGTERM",
+      "SIGINT",
+      "SIGKILL",
+      "SIGTSTP"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl+C 发送 SIGINT 信号给前台进程组的所有进程，默认行为是终止进程。"
+  },
+  {
+    "question": "setsid() 系统调用的作用是什么？",
+    "options": [
+      "创建新进程",
+      "创建新会话",
+      "创建新进程组",
+      "设置进程优先级"
+    ],
+    "answer": 1,
+    "explanation": "setsid() 创建新的会话，调用进程成为会话领导者，并脱离控制终端。常用于创建守护进程。"
+  },
+  {
+    "command": "fg %1 命令的作用是什么？",
+    "options": [
+      "在后台运行作业1",
+      "将作业1切换到前台",
+      "终止作业1",
+      "查看作业1状态"
+    ],
+    "answer": 1,
+    "explanation": "fg（foreground）命令将指定的后台作业切换到前台运行。%1 是作业编号。"
+  }
+]

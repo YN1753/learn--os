@@ -1,0 +1,8 @@
+{
+  "title": "内存映射IO",
+  "description": "理解mmap、内存映射文件和IO机制",
+  "category": "IO管理",
+  "tags": ["mmap", "内存映射", "IO", "文件IO"],
+  "difficulty": "进阶",
+  "order": 45
+}

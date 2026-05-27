@@ -1,0 +1,35 @@
+[
+  {
+    "question": "top命令显示的load average代表什么？",
+    "options": [
+      "CPU使用率",
+      "等待运行的进程数",
+      "内存使用量",
+      "磁盘IO速率"
+    ],
+    "answer": 1,
+    "explanation": "load average显示1分钟、5分钟、15分钟内等待运行的平均进程数。如果负载超过CPU核心数，说明系统过载。"
+  },
+  {
+    "question": "vmstat命令中，wa列代表什么？",
+    "options": [
+      "用户态CPU时间",
+      "系统态CPU时间",
+      "IO等待时间",
+      "空闲CPU时间"
+    ],
+    "answer": 2,
+    "explanation": "wa（IO wait）表示CPU等待IO操作完成的时间占比。如果wa很高，说明磁盘IO是瓶颈。"
+  },
+  {
+    "question": "性能优化时应该首先关注什么？",
+    "options": [
+      "CPU使用率",
+      "找到真正的瓶颈",
+      "内存使用量",
+      "网络带宽"
+    ],
+    "answer": 1,
+    "explanation": "性能优化应该先找到真正的瓶颈，而不是盲目优化某个指标。可能是CPU、内存、磁盘或网络中的任何一个。"
+  }
+]

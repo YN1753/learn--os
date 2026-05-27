@@ -1,0 +1,46 @@
+// 内存映射IO演示
+
+export function runDemo() {
+  console.log('内存映射IO演示')
+  console.log('---')
+
+  console.log('传统IO vs mmap:')
+  console.log()
+  console.log('传统IO:')
+  console.log('  1. 用户程序调用 read()')
+  console.log('  2. 进入内核态')
+  console.log('  3. 内核从磁盘读取数据到内核缓冲区')
+  console.log('  4. 将数据从内核缓冲区拷贝到用户缓冲区')
+  console.log('  5. 返回用户态')
+  console.log('  特点: 两次数据拷贝')
+  console.log()
+  console.log('mmap:')
+  console.log('  1. 用户程序调用 mmap()')
+  console.log('  2. 建立文件到内存的映射')
+  console.log('  3. 用户程序直接访问映射内存')
+  console.log('  4. 访问时触发缺页，从磁盘加载')
+  console.log('  特点: 零拷贝')
+  console.log()
+
+  console.log('mmap使用:')
+  console.log('  void *addr = mmap(')
+  console.log('    NULL,           // 映射地址')
+  console.log('    length,         // 映射长度')
+  console.log('    PROT_READ|PROT_WRITE,  // 保护标志')
+  console.log('    MAP_SHARED,     // 映射标志')
+  console.log('    fd,             // 文件描述符')
+  console.log('    0               // 偏移')
+  console.log('  );')
+  console.log()
+
+  console.log('映射标志:')
+  console.log('  MAP_SHARED: 共享映射，修改写回文件')
+  console.log('  MAP_PRIVATE: 私有映射，修改不写回')
+  console.log('  MAP_ANONYMOUS: 匿名映射，不关联文件')
+  console.log()
+
+  console.log('应用场景:')
+  console.log('  - 文件IO: 高效读写大文件')
+  console.log('  - 共享内存: 进程间通信')
+  console.log('  - 动态链接: 加载共享库')
+}

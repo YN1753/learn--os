@@ -1,0 +1,35 @@
+[
+  {
+    "question": "以下哪个日志级别最严重？",
+    "options": [
+      "INFO",
+      "WARN",
+      "ERROR",
+      "EMERG"
+    ],
+    "answer": 3,
+    "explanation": "日志级别从严重到轻微：EMERG > ALERT > CRIT > ERR > WARN > NOTICE > INFO > DEBUG。EMERG表示系统不可用。"
+  },
+  {
+    "question": "journalctl -f 命令的作用是什么？",
+    "options": [
+      "查看所有日志",
+      "实时跟踪日志输出",
+      "过滤错误日志",
+      "删除旧日志"
+    ],
+    "answer": 1,
+    "explanation": "journalctl -f 类似 tail -f，实时跟踪并显示新的日志输出，常用于实时监控。"
+  },
+  {
+    "question": "日志轮转的主要目的是什么？",
+    "options": [
+      "提高日志写入速度",
+      "防止日志文件无限增长占用磁盘",
+      "加密日志内容",
+      "压缩日志文件"
+    ],
+    "answer": 1,
+    "explanation": "日志轮转定期归档旧日志，删除过期日志，防止日志文件无限增长占用大量磁盘空间。"
+  }
+]
