@@ -1,0 +1,8 @@
+{
+  "title": "互斥锁与信号量",
+  "description": "理解互斥锁、信号量的原理和使用方法，解决并发同步问题",
+  "category": "并发",
+  "tags": ["mutex", "semaphore", "互斥", "同步"],
+  "difficulty": "进阶",
+  "order": 28
+}

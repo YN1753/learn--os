@@ -1,0 +1,8 @@
+{
+  "title": "信号处理",
+  "description": "理解Unix/Linux信号机制、信号处理函数和常见信号的用途",
+  "category": "进程管理",
+  "tags": ["信号", "signal", "SIGTERM", "SIGKILL"],
+  "difficulty": "进阶",
+  "order": 27
+}

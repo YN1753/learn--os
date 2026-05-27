@@ -1,0 +1,8 @@
+{
+  "title": "进程创建与生命周期",
+  "description": "理解fork、exec等系统调用，进程状态转换和生命周期管理",
+  "category": "进程管理",
+  "tags": ["fork", "exec", "进程状态", "僵尸进程"],
+  "difficulty": "基础",
+  "order": 26
+}

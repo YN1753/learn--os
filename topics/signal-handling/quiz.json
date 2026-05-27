@@ -1,0 +1,35 @@
+[
+  {
+    "question": "以下哪个信号不能被捕获或忽略？",
+    "options": [
+      "SIGTERM",
+      "SIGINT",
+      "SIGKILL",
+      "SIGUSR1"
+    ],
+    "answer": 2,
+    "explanation": "SIGKILL（信号9）不能被捕获、忽略或阻塞。它会强制终止进程，用于杀死无法正常终止的进程。SIGSTOP也不能被捕获。"
+  },
+  {
+    "question": "用户按下Ctrl+C时，进程会收到什么信号？",
+    "options": [
+      "SIGTERM",
+      "SIGINT",
+      "SIGKILL",
+      "SIGQUIT"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl+C发送SIGINT信号（信号2），默认行为是终止进程。Ctrl+\\发送SIGQUIT，Ctrl+Z发送SIGTSTP（暂停进程）。"
+  },
+  {
+    "question": "signal() 函数的第二个参数传SIG_IGN表示什么？",
+    "options": [
+      "恢复默认行为",
+      "忽略该信号",
+      "终止进程",
+      "暂停进程"
+    ],
+    "answer": 1,
+    "explanation": "SIG_IGN表示忽略该信号。SIG_DFL恢复默认行为，也可以传入自定义处理函数的指针。"
+  }
+]

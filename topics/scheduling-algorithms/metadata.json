@@ -1,0 +1,8 @@
+{
+  "title": "调度算法详解",
+  "description": "深入理解FCFS、SJF、RR、优先级等CPU调度算法的原理和比较",
+  "category": "进程管理",
+  "tags": ["调度", "FCFS", "SJF", "RR", "优先级"],
+  "difficulty": "进阶",
+  "order": 30
+}
