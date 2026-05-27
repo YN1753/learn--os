@@ -1,0 +1,20 @@
+[
+  {
+    "question": "SQL中用于查询数据的关键字是什么？",
+    "options": ["INSERT", "SELECT", "UPDATE", "DELETE"],
+    "answer": 1,
+    "explanation": "SELECT用于从数据库表中查询数据。"
+  },
+  {
+    "question": "事务的ACID特性中，A表示什么？",
+    "options": ["一致性", "原子性", "隔离性", "持久性"],
+    "answer": 1,
+    "explanation": "A代表Atomicity（原子性），表示事务要么全部成功，要么全部失败。"
+  },
+  {
+    "question": "数据库索引的主要作用是什么？",
+    "options": ["减少存储空间", "加速查询", "保证数据安全", "备份数据"],
+    "answer": 1,
+    "explanation": "索引的主要作用是加速数据查询，类似于书籍的目录。"
+  }
+]

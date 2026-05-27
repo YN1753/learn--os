@@ -1,0 +1,8 @@
+{
+  "title": "数据库系统",
+  "description": "数据库管理系统原理、SQL语言和事务处理",
+  "category": "系统应用",
+  "tags": ["数据库", "SQL", "事务", "索引"],
+  "difficulty": "中级",
+  "order": 66
+}

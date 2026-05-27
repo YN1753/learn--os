@@ -1,0 +1,8 @@
+{
+  "title": "内存泄漏检测",
+  "description": "内存泄漏的原因、检测工具和预防方法",
+  "category": "调试与优化",
+  "tags": ["内存泄漏", "Valgrind", "内存管理", "调试"],
+  "difficulty": "高级",
+  "order": 67
+}

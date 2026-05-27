@@ -1,0 +1,20 @@
+[
+  {
+    "question": "HTTPS使用什么协议进行加密？",
+    "options": ["FTP", "SSH", "SSL/TLS", "SMTP"],
+    "answer": 2,
+    "explanation": "HTTPS使用SSL/TLS协议对HTTP通信进行加密。"
+  },
+  {
+    "question": "以下哪个不是常见的网络攻击类型？",
+    "options": ["DDoS", "SQL注入", "编译优化", "中间人攻击"],
+    "answer": 2,
+    "explanation": "编译优化是编译器技术，不是网络攻击类型。"
+  },
+  {
+    "question": "VPN的主要作用是什么？",
+    "options": ["加速网络", "建立加密隧道", "提高CPU性能", "增加内存"],
+    "answer": 1,
+    "explanation": "VPN通过加密隧道在公共网络上建立安全连接，保护数据传输安全。"
+  }
+]
