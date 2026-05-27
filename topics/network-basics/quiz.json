@@ -1,0 +1,46 @@
+[
+  {
+    "question": "TCP三次握手的顺序是什么？",
+    "options": [
+      "ACK → SYN → SYN+ACK",
+      "SYN → SYN+ACK → ACK",
+      "SYN → ACK → FIN",
+      "FIN → ACK → SYN"
+    ],
+    "answer": 1,
+    "explanation": "TCP三次握手：客户端发送SYN，服务器回复SYN+ACK，客户端发送ACK，连接建立。"
+  },
+  {
+    "question": "DNS的作用是什么？",
+    "options": [
+      "加密数据",
+      "将域名转换为IP地址",
+      "路由数据包",
+      "管理文件"
+    ],
+    "answer": 1,
+    "explanation": "DNS（域名系统）将人类可读的域名（如www.example.com）转换为计算机使用的IP地址。"
+  },
+  {
+    "question": "TCP和UDP的主要区别是什么？",
+    "options": [
+      "TCP更快",
+      "TCP可靠，UDP不可靠",
+      "UDP更安全",
+      "没有区别"
+    ],
+    "answer": 1,
+    "explanation": "TCP是面向连接的可靠传输，保证数据完整有序；UDP是无连接的不可靠传输，速度快但不保证送达。"
+  },
+  {
+    "question": "HTTP状态码404表示什么？",
+    "options": [
+      "成功",
+      "重定向",
+      "未找到资源",
+      "服务器错误"
+    ],
+    "answer": 2,
+    "explanation": "404表示请求的资源未找到，是最常见的HTTP错误之一。"
+  }
+]

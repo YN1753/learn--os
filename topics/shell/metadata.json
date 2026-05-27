@@ -1,0 +1,8 @@
+{
+  "title": "Shell与命令行",
+  "description": "学习Shell基础命令和脚本编程，掌握命令行操作",
+  "category": "工具使用",
+  "tags": ["Shell", "Bash", "命令行", "脚本"],
+  "difficulty": "入门",
+  "order": 18
+}
