@@ -1,0 +1,20 @@
+[
+  {
+    "question": "嵌入式系统最显著的特点是什么？",
+    "options": ["高性能CPU", "大容量内存", "资源受限且专用性强", "通用操作系统"],
+    "answer": 2,
+    "explanation": "嵌入式系统通常具有有限的计算资源（内存、CPU），并且为特定功能专门设计。"
+  },
+  {
+    "question": "以下哪个不是常见的嵌入式操作系统？",
+    "options": ["FreeRTOS", "Ubuntu Desktop", "RT-Thread", "Zephyr"],
+    "answer": 1,
+    "explanation": "Ubuntu Desktop是桌面操作系统，不是嵌入式操作系统。FreeRTOS、RT-Thread和Zephyr都是常见的嵌入式RTOS。"
+  },
+  {
+    "question": "嵌入式开发中「交叉开发」是什么意思？",
+    "options": ["在目标板上开发", "在PC上编译，部署到目标板", "同时开发多个项目", "跨平台UI开发"],
+    "answer": 1,
+    "explanation": "交叉开发是指在开发主机（通常是PC）上编写和编译代码，然后将生成的可执行文件部署到目标嵌入式设备上运行。"
+  }
+]

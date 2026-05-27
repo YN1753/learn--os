@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Linux系统中，哪个命令可以实时查看进程资源使用情况？",
+    "options": ["ls", "top", "cd", "pwd"],
+    "answer": 1,
+    "explanation": "top命令可以实时显示系统中各个进程的资源占用情况，包括CPU、内存使用率等。"
+  },
+  {
+    "question": "系统负载均值（Load Average）为4，而CPU只有2个核心，这意味着什么？",
+    "options": ["系统运行正常", "有进程在等待CPU资源", "内存不足", "磁盘太慢"],
+    "answer": 1,
+    "explanation": "负载均值大于CPU核心数，说明有进程在等待CPU时间片，系统处于过载状态。"
+  },
+  {
+    "question": "以下哪个工具主要用于监控磁盘I/O？",
+    "options": ["top", "vmstat", "iostat", "netstat"],
+    "answer": 2,
+    "explanation": "iostat是专门用于监控磁盘I/O统计信息的工具，可以显示磁盘读写速率、等待时间等。"
+  }
+]

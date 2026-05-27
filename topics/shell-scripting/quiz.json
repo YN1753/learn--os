@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Shell脚本第一行的#!/bin/bash叫做什么？",
+    "options": ["注释", "shebang", "变量", "函数"],
+    "answer": 1,
+    "explanation": "#!叫做shebang，用于指定脚本的解释器路径。"
+  },
+  {
+    "question": "以下哪个符号用于管道操作？",
+    "options": [">", "|", "&", "#"],
+    "answer": 1,
+    "explanation": "| 是管道符号，用于将前一个命令的输出作为后一个命令的输入。"
+  },
+  {
+    "question": "在Shell脚本中，$1表示什么？",
+    "options": ["第一个变量", "第一个参数", "第一行", "第一个命令"],
+    "answer": 1,
+    "explanation": "$1表示脚本或函数的第一个参数，$2是第二个参数，以此类推。$0是脚本本身。"
+  }
+]

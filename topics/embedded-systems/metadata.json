@@ -1,0 +1,8 @@
+{
+  "title": "嵌入式系统",
+  "description": "嵌入式操作系统的特点、架构和应用场景",
+  "category": "高级主题",
+  "tags": ["嵌入式", "RTOS", "微控制器", "物联网"],
+  "difficulty": "高级",
+  "order": 54
+}

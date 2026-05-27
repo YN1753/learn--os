@@ -1,0 +1,8 @@
+{
+  "title": "电源管理",
+  "description": "操作系统电源管理策略、CPU频率调节和节能技术",
+  "category": "系统管理",
+  "tags": ["电源管理", "ACPI", "CPU频率", "节能"],
+  "difficulty": "中级",
+  "order": 52
+}

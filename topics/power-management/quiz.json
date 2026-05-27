@@ -1,0 +1,20 @@
+[
+  {
+    "question": "ACPI中S3状态表示什么？",
+    "options": ["工作状态", "睡眠状态（挂起到内存）", "休眠状态（挂起到磁盘）", "软关机"],
+    "answer": 1,
+    "explanation": "S3是睡眠状态，系统状态保存在内存中，CPU停止工作，但内存仍保持供电。"
+  },
+  {
+    "question": "DVFS技术的主要目的是什么？",
+    "options": ["提高CPU性能", "动态调整频率和电压以平衡性能和功耗", "增加内存容量", "加快磁盘读写"],
+    "answer": 1,
+    "explanation": "DVFS（动态电压频率调节）根据系统负载动态调整CPU的频率和电压，在低负载时降低功耗。"
+  },
+  {
+    "question": "以下哪个不是Linux CPUFREQ的调节策略？",
+    "options": ["performance", "powersave", "ondemand", "balanced"],
+    "answer": 3,
+    "explanation": "Linux CPUFREQ的常见策略包括performance（最高性能）、powersave（省电）、ondemand（按需调节）和conservative（保守调节），没有balanced策略。"
+  }
+]

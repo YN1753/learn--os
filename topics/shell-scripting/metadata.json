@@ -1,0 +1,8 @@
+{
+  "title": "Shell脚本编程",
+  "description": "Shell脚本基础语法、常用命令和自动化技巧",
+  "category": "系统管理",
+  "tags": ["Shell", "Bash", "脚本", "自动化"],
+  "difficulty": "初级",
+  "order": 55
+}
