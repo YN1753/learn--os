@@ -1,0 +1,8 @@
+{
+  "title": "虚拟化技术",
+  "description": "理解虚拟机、容器化技术及其在现代计算中的应用",
+  "category": "系统架构",
+  "tags": ["虚拟机", "容器", "Docker", "云计算"],
+  "difficulty": "进阶",
+  "order": 9
+}

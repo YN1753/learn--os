@@ -1,0 +1,8 @@
+{
+  "title": "CPU调度算法",
+  "description": "深入理解各种CPU调度算法的原理、优缺点和适用场景",
+  "category": "进程管理",
+  "tags": ["CPU", "调度", "算法", "性能"],
+  "difficulty": "进阶",
+  "order": 6
+}
