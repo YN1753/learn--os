@@ -1,0 +1,46 @@
+[
+  {
+    "question": "计算机按下电源后第一个执行的程序是什么？",
+    "options": [
+      "操作系统内核",
+      "引导加载程序",
+      "BIOS/UEFI",
+      "应用程序"
+    ],
+    "answer": 2,
+    "explanation": "按下电源后，CPU从固定地址开始执行，这个地址存储的是BIOS/UEFI程序。"
+  },
+  {
+    "question": "POST是什么？",
+    "options": [
+      "一种网络协议",
+      "上电自检，检查硬件是否正常",
+      "一种文件系统",
+      "一种编程语言"
+    ],
+    "answer": 1,
+    "explanation": "POST（Power-On Self-Test）是上电自检，BIOS/UEFI执行硬件检查，确保CPU、内存、显卡等正常工作。"
+  },
+  {
+    "question": "UEFI相比BIOS的主要优势是什么？",
+    "options": [
+      "启动更快",
+      "支持更大的硬盘和安全启动",
+      "占用更少内存",
+      "兼容更多硬件"
+    ],
+    "answer": 1,
+    "explanation": "UEFI支持GPT分区表（支持超过2TB硬盘）、安全启动（防止恶意软件）、图形界面等。"
+  },
+  {
+    "question": "Linux系统的第一个进程是什么？",
+    "options": [
+      "bash",
+      "init/systemd（PID 1）",
+      "kernel",
+      "grub"
+    ],
+    "answer": 1,
+    "explanation": "Linux内核初始化完成后启动第一个进程，传统上是init，现代系统是systemd，进程ID为1。"
+  }
+]
