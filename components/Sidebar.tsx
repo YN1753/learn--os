@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 
 interface TopicMeta {
   slug: string
@@ -35,9 +36,9 @@ export function Sidebar({ topicsByCategory }: SidebarProps) {
   const content = (
     <nav className="text-sm">
       <div className="px-4 py-3 border-b border-gray-200 dark:border-gray-800">
-        <a href="/" className="font-bold text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400">
+        <Link href="/" className="font-bold text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400">
           OS 知识库
-        </a>
+        </Link>
         <div className="text-xs text-gray-500 mt-0.5">操作系统可视化学习</div>
       </div>
       <div className="py-2">
@@ -61,7 +62,7 @@ export function Sidebar({ topicsByCategory }: SidebarProps) {
             {!collapsed[cat] && (
               <div className="ml-2 border-l border-gray-200 dark:border-gray-800">
                 {topicsByCategory[cat].map(topic => (
-                  <a
+                  <Link
                     key={topic.slug}
                     href={`/topics/${topic.slug}`}
                     className={`flex items-center justify-between px-4 py-1.5 transition-colors ${
@@ -74,7 +75,7 @@ export function Sidebar({ topicsByCategory }: SidebarProps) {
                     <span className={`text-[10px] px-1.5 py-0.5 rounded ${difficultyColor[topic.difficulty] || 'bg-gray-100 text-gray-500'}`}>
                       {topic.difficulty}
                     </span>
-                  </a>
+                  </Link>
                 ))}
               </div>
             )}

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { getTopics, getTopicsByCategory } from '@/lib/topics'
 
 const difficultyConfig: Record<string, { label: string; color: string }> = {
@@ -70,7 +71,7 @@ export default async function Home() {
             {topicsByCategory[cat].map((topic, idx) => {
               const diff = difficultyConfig[topic.difficulty] || { label: topic.difficulty, color: 'bg-gray-100 text-gray-600' }
               return (
-                <a
+                <Link
                   key={topic.slug}
                   href={`/topics/${topic.slug}`}
                   className="group block p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 hover:border-blue-400 dark:hover:border-blue-600 hover:shadow-md transition-all"
@@ -93,7 +94,7 @@ export default async function Home() {
                       </span>
                     ))}
                   </div>
-                </a>
+                </Link>
               )
             })}
           </div>
