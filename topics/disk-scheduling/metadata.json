@@ -1,0 +1,8 @@
+{
+  "title": "磁盘调度算法",
+  "description": "理解SCAN、C-SCAN、SSTF等磁盘调度算法如何优化磁盘访问性能",
+  "category": "IO管理",
+  "tags": ["磁盘调度", "SCAN", "SSTF", "IO优化"],
+  "difficulty": "进阶",
+  "order": 22
+}

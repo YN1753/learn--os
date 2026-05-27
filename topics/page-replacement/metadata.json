@@ -1,0 +1,8 @@
+{
+  "title": "页面置换算法",
+  "description": "理解FIFO、LRU、Clock等页面置换算法的工作原理和性能比较",
+  "category": "内存管理",
+  "tags": ["页面置换", "LRU", "FIFO", "虚拟内存"],
+  "difficulty": "进阶",
+  "order": 21
+}
