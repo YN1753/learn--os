@@ -2,6 +2,7 @@ import { getTopics, getTopic } from '@/lib/topics'
 import { notFound } from 'next/navigation'
 import { MarkdownRenderer } from '@/components/MarkdownRenderer'
 import { Quiz } from '@/components/Quiz'
+import { VisualizationLoader } from '@/components/VisualizationRegistry'
 
 export async function generateStaticParams() {
   const topics = await getTopics()
@@ -13,12 +14,13 @@ export default async function TopicPage({ params }: { params: { slug: string } }
   if (!topic) notFound()
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <div className="mb-8">
+    <div>
+      {/* Header */}
+      <div className="mb-6">
         <div className="text-sm text-blue-600 dark:text-blue-400 mb-1">{topic.category}</div>
-        <h1 className="text-3xl font-bold mb-2">{topic.title}</h1>
+        <h1 className="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">{topic.title}</h1>
         <p className="text-gray-600 dark:text-gray-400">{topic.description}</p>
-        <div className="mt-3 flex gap-2">
+        <div className="mt-3 flex flex-wrap gap-2">
           {topic.tags?.map((tag: string) => (
             <span key={tag} className="text-xs px-2 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">
               {tag}
@@ -30,6 +32,12 @@ export default async function TopicPage({ params }: { params: { slug: string } }
         </div>
       </div>
 
+      {/* Visualization */}
+      <section className="mb-8">
+        <VisualizationLoader slug={params.slug} />
+      </section>
+
+      {/* Article + Quiz */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <article className="lg:col-span-2 prose dark:prose-invert max-w-none">
           <MarkdownRenderer content={topic.article} />
