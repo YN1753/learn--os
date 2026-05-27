@@ -1,0 +1,8 @@
+{
+  "title": "磁盘管理",
+  "description": "理解磁盘结构、分区、格式化和磁盘管理工具",
+  "category": "存储",
+  "tags": ["磁盘", "分区", "格式化", "MBR", "GPT"],
+  "difficulty": "基础",
+  "order": 40
+}

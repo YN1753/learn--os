@@ -1,0 +1,8 @@
+{
+  "title": "文件权限管理",
+  "description": "理解Unix/Linux文件权限模型、ACL和权限管理命令",
+  "category": "文件系统",
+  "tags": ["权限", "chmod", "chown", "ACL"],
+  "difficulty": "基础",
+  "order": 38
+}

@@ -1,0 +1,8 @@
+{
+  "title": "目录结构",
+  "description": "理解文件系统目录层次、路径解析和目录操作",
+  "category": "文件系统",
+  "tags": ["目录", "路径", "inode", "挂载"],
+  "difficulty": "基础",
+  "order": 39
+}
