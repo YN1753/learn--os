@@ -1,0 +1,20 @@
+[
+  {
+    "question": "消息队列的主要作用是什么？",
+    "options": ["存储数据", "异步通信和解耦", "处理计算", "显示界面"],
+    "answer": 1,
+    "explanation": "消息队列主要用于应用程序之间的异步通信和系统解耦。"
+  },
+  {
+    "question": "以下哪个不是常见的消息队列系统？",
+    "options": ["RabbitMQ", "Kafka", "MySQL", "RocketMQ"],
+    "answer": 2,
+    "explanation": "MySQL是关系型数据库，不是消息队列系统。RabbitMQ、Kafka和RocketMQ都是常见的消息队列。"
+  },
+  {
+    "question": "Kafka主要适用于什么场景？",
+    "options": ["事务处理", "高吞吐日志收集", "实时游戏", "文件存储"],
+    "answer": 1,
+    "explanation": "Kafka设计用于高吞吐的日志收集和流处理场景。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Raft算法中，哪个角色负责处理写请求？",
+    "options": ["Follower", "Leader", "Candidate", "Observer"],
+    "answer": 1,
+    "explanation": "在Raft算法中，Leader负责处理所有写请求并将日志复制到Follower。"
+  },
+  {
+    "question": "CAP定理中，分布式系统最多同时满足几个属性？",
+    "options": ["1个", "2个", "3个", "4个"],
+    "answer": 1,
+    "explanation": "CAP定理指出分布式系统最多同时满足一致性、可用性、分区容忍中的两个。"
+  },
+  {
+    "question": "Raft算法中，Candidate如何成为Leader？",
+    "options": ["自动成为", "获得多数票", "由Leader指定", "随机选择"],
+    "answer": 1,
+    "explanation": "Candidate需要获得集群中多数节点的投票才能成为Leader。"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "title": "消息队列",
+  "description": "消息队列原理、常见实现和应用场景",
+  "category": "系统架构",
+  "tags": ["消息队列", "Kafka", "RabbitMQ", "异步"],
+  "difficulty": "中级",
+  "order": 73
+}
