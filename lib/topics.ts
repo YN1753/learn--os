@@ -34,6 +34,16 @@ export async function getTopics(): Promise<TopicMeta[]> {
   return topics.sort((a, b) => a.order - b.order)
 }
 
+export async function getTopicsByCategory(): Promise<Record<string, TopicMeta[]>> {
+  const topics = await getTopics()
+  const grouped: Record<string, TopicMeta[]> = {}
+  for (const t of topics) {
+    if (!grouped[t.category]) grouped[t.category] = []
+    grouped[t.category].push(t)
+  }
+  return grouped
+}
+
 export async function getTopic(slug: string) {
   const topicDir = path.join(TOPICS_DIR, slug)
   if (!fs.existsSync(topicDir)) return null
