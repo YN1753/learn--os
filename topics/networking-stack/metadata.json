@@ -1,0 +1,8 @@
+{
+  "title": "网络协议栈",
+  "description": "理解TCP/IP协议栈的层次结构和各层协议的工作原理",
+  "category": "网络",
+  "tags": ["TCP/IP", "协议栈", "以太网", "IP", "TCP"],
+  "difficulty": "进阶",
+  "order": 46
+}

@@ -1,0 +1,8 @@
+{
+  "title": "DHCP动态主机配置",
+  "description": "理解DHCP的工作原理、IP地址分配过程",
+  "category": "网络",
+  "tags": ["DHCP", "IP分配", "租约", "网络配置"],
+  "difficulty": "基础",
+  "order": 49
+}

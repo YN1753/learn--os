@@ -1,0 +1,8 @@
+{
+  "title": "NFS网络文件系统",
+  "description": "理解NFS的工作原理、配置和使用方法",
+  "category": "网络",
+  "tags": ["NFS", "网络文件系统", "共享", "挂载"],
+  "difficulty": "进阶",
+  "order": 50
+}

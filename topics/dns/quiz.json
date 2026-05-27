@@ -1,0 +1,35 @@
+[
+  {
+    "question": "DNS的主要作用是什么？",
+    "options": [
+      "分配IP地址",
+      "域名解析为IP地址",
+      "加密网络通信",
+      "管理网络流量"
+    ],
+    "answer": 1,
+    "explanation": "DNS（域名系统）将人类可读的域名（如example.com）转换为计算机使用的IP地址（如93.184.216.34）。"
+  },
+  {
+    "question": "DNS解析过程中，最先查询的是什么？",
+    "options": [
+      "根DNS服务器",
+      "本地DNS服务器",
+      "浏览器缓存",
+      "权威DNS服务器"
+    ],
+    "answer": 2,
+    "explanation": "DNS解析首先检查浏览器缓存，然后是操作系统缓存，接着是本地DNS服务器，最后才查询根服务器和权威服务器。"
+  },
+  {
+    "question": "CNAME记录的作用是什么？",
+    "options": [
+      "指向IP地址",
+      "域名别名，指向另一个域名",
+      "邮件服务器",
+      "DNS服务器"
+    ],
+    "answer": 1,
+    "explanation": "CNAME记录创建域名别名，将一个域名指向另一个域名。例如www.example.com指向example.com。"
+  }
+]

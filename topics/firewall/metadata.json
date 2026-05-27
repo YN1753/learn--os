@@ -1,0 +1,8 @@
+{
+  "title": "防火墙",
+  "description": "理解防火墙的工作原理、类型和配置方法",
+  "category": "安全",
+  "tags": ["防火墙", "iptables", "包过滤", "NAT"],
+  "difficulty": "进阶",
+  "order": 47
+}

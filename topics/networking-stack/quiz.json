@@ -1,0 +1,35 @@
+[
+  {
+    "question": "TCP三次握手的作用是什么？",
+    "options": [
+      "加密数据",
+      "建立可靠连接",
+      "分配IP地址",
+      "解析域名"
+    ],
+    "answer": 1,
+    "explanation": "TCP三次握手（SYN, SYN+ACK, ACK）用于建立可靠的连接，确保双方都能发送和接收数据。"
+  },
+  {
+    "question": "TCP和UDP的主要区别是什么？",
+    "options": [
+      "TCP更快",
+      "TCP可靠，UDP不可靠",
+      "UDP更安全",
+      "两者没有区别"
+    ],
+    "answer": 1,
+    "explanation": "TCP是面向连接的可靠传输，有确认和重传机制。UDP是无连接的不可靠传输，但速度更快。"
+  },
+  {
+    "question": "HTTP协议工作在TCP/IP模型的哪一层？",
+    "options": [
+      "链路层",
+      "网络层",
+      "传输层",
+      "应用层"
+    ],
+    "answer": 3,
+    "explanation": "HTTP是应用层协议，用于Web浏览。它使用传输层的TCP协议进行数据传输。"
+  }
+]

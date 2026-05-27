@@ -1,0 +1,35 @@
+[
+  {
+    "question": "NFS的主要作用是什么？",
+    "options": [
+      "网络安全",
+      "网络文件共享",
+      "网络监控",
+      "网络加速"
+    ],
+    "answer": 1,
+    "explanation": "NFS（网络文件系统）允许在网络中共享文件系统，客户端可以像访问本地文件一样访问远程文件。"
+  },
+  {
+    "question": "NFS exports配置中 no_root_squash 的作用是什么？",
+    "options": [
+      "禁止root访问",
+      "允许客户端root用户保持root权限",
+      "压缩文件",
+      "加密传输"
+    ],
+    "answer": 1,
+    "explanation": "no_root_squash允许客户端的root用户在NFS共享上保持root权限。默认情况下root会被映射为匿名用户。"
+  },
+  {
+    "question": "NFSv4相比NFSv3的主要改进是什么？",
+    "options": [
+      "速度更快",
+      "支持ACL和更好的安全性",
+      "配置更简单",
+      "占用更少带宽"
+    ],
+    "answer": 1,
+    "explanation": "NFSv4是有状态协议，支持ACL（访问控制列表），安全性更好，并且支持防火墙穿越。"
+  }
+]

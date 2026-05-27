@@ -1,0 +1,35 @@
+[
+  {
+    "question": "DHCP的四步过程是什么？",
+    "options": [
+      "SYN, SYN+ACK, ACK, DATA",
+      "Discover, Offer, Request, ACK",
+      "Query, Response, Verify, Confirm",
+      "Connect, Auth, Transfer, Close"
+    ],
+    "answer": 1,
+    "explanation": "DHCP四步：客户端广播Discover，服务器回复Offer，客户端请求Request，服务器确认ACK。"
+  },
+  {
+    "question": "DHCP租约过半时会做什么？",
+    "options": [
+      "释放IP",
+      "自动续租",
+      "重新获取新IP",
+      "什么都不做"
+    ],
+    "answer": 1,
+    "explanation": "DHCP客户端在租约过半时会自动向服务器请求续租，以延长IP地址的使用时间。"
+  },
+  {
+    "question": "为什么服务器通常使用静态IP而不是DHCP？",
+    "options": [
+      "静态IP更快",
+      "静态IP不会变化，便于访问",
+      "DHCP不安全",
+      "静态IP更便宜"
+    ],
+    "answer": 1,
+    "explanation": "服务器需要固定的IP地址以便客户端稳定访问。DHCP分配的IP可能会变化，不适合服务器使用。"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "title": "DNS域名系统",
+  "description": "理解DNS的工作原理、域名解析过程和记录类型",
+  "category": "网络",
+  "tags": ["DNS", "域名", "解析", "记录"],
+  "difficulty": "基础",
+  "order": 48
+}
