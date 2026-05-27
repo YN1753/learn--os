@@ -1,0 +1,8 @@
+{
+  "title": "RAID 存储技术",
+  "description": "理解RAID 0、1、5、6等各级别的原理、性能和可靠性比较",
+  "category": "存储",
+  "tags": ["RAID", "磁盘阵列", "冗余", "性能"],
+  "difficulty": "进阶",
+  "order": 33
+}

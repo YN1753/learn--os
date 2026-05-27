@@ -1,0 +1,8 @@
+{
+  "title": "可加载内核模块",
+  "description": "理解Linux内核模块的加载、卸载机制和模块编程基础",
+  "category": "内核",
+  "tags": ["内核模块", "LKM", "insmod", "rmmod"],
+  "difficulty": "高级",
+  "order": 34
+}
