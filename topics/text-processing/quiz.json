@@ -1,0 +1,20 @@
+[
+  {
+    "question": "grep命令中，哪个选项用于忽略大小写？",
+    "options": ["-v", "-i", "-r", "-c"],
+    "answer": 1,
+    "explanation": "-i选项使grep忽略大小写进行匹配。"
+  },
+  {
+    "question": "sed命令中，s/old/new/g的g表示什么？",
+    "options": ["全局替换", "忽略大小写", "只处理第一行", "反向匹配"],
+    "answer": 0,
+    "explanation": "g标志表示全局替换，即替换每行中的所有匹配项，而不仅仅是第一个。"
+  },
+  {
+    "question": "awk中$0表示什么？",
+    "options": ["第一列", "最后一列", "整行", "行号"],
+    "answer": 2,
+    "explanation": "在awk中，$0表示整行内容，$1表示第一列，$2表示第二列，以此类推。"
+  }
+]

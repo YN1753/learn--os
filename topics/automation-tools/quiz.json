@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Ansible的主要特点是什么？",
+    "options": ["需要安装代理", "使用Python脚本", "无代理架构", "只能管理Linux"],
+    "answer": 2,
+    "explanation": "Ansible通过SSH连接管理服务器，无需在目标机器上安装代理，这是它的主要优势之一。"
+  },
+  {
+    "question": "Ansible Playbook使用什么格式编写？",
+    "options": ["JSON", "XML", "YAML", "Python"],
+    "answer": 2,
+    "explanation": "Ansible Playbook使用YAML格式编写，可读性强且易于维护。"
+  },
+  {
+    "question": "什么是Ansible的幂等性？",
+    "options": ["只能执行一次", "多次执行结果一致", "执行速度最快", "只能管理一台服务器"],
+    "answer": 1,
+    "explanation": "幂等性意味着无论执行多少次，只要系统状态不变，最终结果都是一致的。"
+  }
+]

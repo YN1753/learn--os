@@ -1,0 +1,8 @@
+{
+  "title": "版本控制",
+  "description": "Git版本控制系统的原理和常用操作",
+  "category": "开发工具",
+  "tags": ["Git", "版本控制", "代码管理", "分支"],
+  "difficulty": "初级",
+  "order": 62
+}

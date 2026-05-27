@@ -1,0 +1,8 @@
+{
+  "title": "文本处理",
+  "description": "Linux文本处理工具sed、awk和grep的使用方法",
+  "category": "系统管理",
+  "tags": ["sed", "awk", "grep", "文本处理"],
+  "difficulty": "中级",
+  "order": 60
+}

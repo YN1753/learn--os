@@ -1,0 +1,8 @@
+{
+  "title": "自动化工具",
+  "description": "Ansible、Puppet等自动化运维工具的原理和使用",
+  "category": "系统管理",
+  "tags": ["Ansible", "自动化", "配置管理", "DevOps"],
+  "difficulty": "高级",
+  "order": 63
+}

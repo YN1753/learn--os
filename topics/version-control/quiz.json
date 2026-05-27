@@ -1,0 +1,20 @@
+[
+  {
+    "question": "git add命令的作用是什么？",
+    "options": ["提交代码", "添加到暂存区", "推送到远程", "创建分支"],
+    "answer": 1,
+    "explanation": "git add将文件添加到暂存区（staging area），准备下一次提交。"
+  },
+  {
+    "question": "Git中HEAD表示什么？",
+    "options": ["最新提交", "当前分支", "远程仓库", "暂存区"],
+    "answer": 1,
+    "explanation": "HEAD是指向当前分支最新提交的指针，表示当前所在位置。"
+  },
+  {
+    "question": "git merge和git rebase的主要区别是什么？",
+    "options": ["merge更快", "rebase保留历史", "merge创建新提交", "rebase创建合并提交"],
+    "answer": 2,
+    "explanation": "merge会创建一个合并提交，保留分支历史；rebase会重写提交历史，使历史更线性。"
+  }
+]

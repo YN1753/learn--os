@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Makefile中命令行必须用什么字符缩进？",
+    "options": ["空格", "Tab", "冒号", "逗号"],
+    "answer": 1,
+    "explanation": "Makefile中的命令必须用Tab字符缩进，使用空格会导致错误。"
+  },
+  {
+    "question": "CMake的主要优势是什么？",
+    "options": ["只能在Linux使用", "跨平台构建", "只能编译C语言", "不需要配置文件"],
+    "answer": 1,
+    "explanation": "CMake是跨平台的构建系统生成器，可以生成Makefile、Visual Studio项目等多种构建文件。"
+  },
+  {
+    "question": "Make的增量编译是指什么？",
+    "options": ["每次全量编译", "只编译修改的文件", "并行编译", "交叉编译"],
+    "answer": 1,
+    "explanation": "增量编译是指Make会检查文件依赖和时间戳，只重新编译被修改的文件及其依赖。"
+  }
+]

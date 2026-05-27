@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Kubernetes中最小的部署单元是什么？",
+    "options": ["Container", "Pod", "Service", "Node"],
+    "answer": 1,
+    "explanation": "Pod是Kubernetes中最小的部署单元，可以包含一个或多个容器。"
+  },
+  {
+    "question": "kubectl apply -f deployment.yml的作用是什么？",
+    "options": ["删除部署", "创建或更新部署", "查看部署", "回滚部署"],
+    "answer": 1,
+    "explanation": "kubectl apply用于声明式地创建或更新资源，如果资源不存在则创建，已存在则更新。"
+  },
+  {
+    "question": "Kubernetes中Service的主要作用是什么？",
+    "options": ["存储数据", "提供网络访问和负载均衡", "管理节点", "调度Pod"],
+    "answer": 1,
+    "explanation": "Service为Pod提供稳定的网络访问入口，并提供负载均衡功能。"
+  }
+]

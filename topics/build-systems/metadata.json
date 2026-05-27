@@ -1,0 +1,8 @@
+{
+  "title": "构建系统",
+  "description": "Make和CMake构建系统的原理和使用方法",
+  "category": "开发工具",
+  "tags": ["Make", "CMake", "构建", "编译"],
+  "difficulty": "中级",
+  "order": 61
+}

@@ -1,0 +1,8 @@
+{
+  "title": "容器编排",
+  "description": "Kubernetes容器编排系统的架构和核心概念",
+  "category": "虚拟化与容器",
+  "tags": ["Kubernetes", "K8s", "容器编排", "微服务"],
+  "difficulty": "高级",
+  "order": 64
+}
